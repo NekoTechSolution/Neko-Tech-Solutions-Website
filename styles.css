@@ -61,12 +61,15 @@ body {
 /*Side bar*/
 .sidebar {
   width: 300px;             
-  padding: 20px;
+  padding: 0px;
   background-color: #f4f4f4;
   border-left: 2px solid teal;
   display: flex;
   flex-direction: column;
-  float: right;
+ 
+}
+.navbar-container {
+    display: inline-flex;
 }
 
 /*Header image*/
