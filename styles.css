@@ -20,6 +20,7 @@ body {
 .navbar {
   background-color: #333;
   padding: 10px 20px;
+  text-align: center;
 }
 
 /* Flex container for logo and links */
