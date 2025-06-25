@@ -89,8 +89,8 @@ body {
 }
 /*Doggo Image*/
 .doggo-img {
-  width: 35%;
+  width: 15%;
   height: auto;
-  border-radius: 10px;
-  margin-top: 20px;
+  display: block;
+  object-fit: contain;
 }
