@@ -1,0 +1,12 @@
+/*Header image*/
+.banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+
+#sidebar { 
+    margin: 160px;
+}
