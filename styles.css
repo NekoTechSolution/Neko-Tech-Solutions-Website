@@ -64,8 +64,10 @@ body {
   padding: 0px;
   background-color: #f4f4f4;
   border-left: 2px solid teal;
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
+  float: right;
+  text-align: center;
  
 }
 .navbar-container {
@@ -77,10 +79,14 @@ body {
   width: 70%;
   height: auto;
   display: block;
-  object-fit: cover;
-  float: none;
+  object-fit: contain;
+  float: left;
 }
 
+.navbar-container {
+    display: inline-flex;
+    
+}
 /*Doggo Image*/
 .doggo-img {
   width: 100%;
