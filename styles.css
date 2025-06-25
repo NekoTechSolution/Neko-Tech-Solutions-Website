@@ -1,3 +1,9 @@
+/*Body*/
+body {
+    margin: 0;
+    padding: 0; 
+} 
+
 /* Logo */
 .logo-top {
   width: 50px;
@@ -14,8 +20,6 @@ body {
 .navbar {
   background-color: #333;
   padding: 10px 20px;
-  text-align: center;
-  
 }
 
 /* Flex container for logo and links */
@@ -73,3 +77,10 @@ body {
   float: none;
 }
 
+/*Doggo Image*/
+.doggo-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
