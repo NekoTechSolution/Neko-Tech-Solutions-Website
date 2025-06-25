@@ -1,12 +1,19 @@
+
+/*Side bar*/
+.sidebar {
+  width: 300px;             
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-left: 2px solid teal;
+  display: flex;
+  flex-direction: column;
+}
+
 /*Header image*/
 .banner-img {
-  width: 100%;
+  width: 70%;
   height: auto;
   display: block;
   object-fit: cover;
 }
 
-
-#sidebar { 
-    margin: 160px;
-}
