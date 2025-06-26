@@ -16,11 +16,6 @@ body {
   margin-right: 20px;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-}
-
 /* Navbar Wrapper */
 .navbar {
   background-color: #202020;
@@ -31,10 +26,10 @@ body {
 
 /* Flex container for logo and links */
 .navbar-container {
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-between;
-
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  
 }
 
 /* Navigation Links */
@@ -77,9 +72,7 @@ body {
   text-align: center;
  
 }
-.navbar-container {
-    display: inline-flex;
-}
+
 
 /*-------------------------------------------------------*/
 /*-------------------------------------------------------*/
