@@ -85,18 +85,17 @@ body {
   float: left;
 }
 
-
-/*Doggo Image*/
+.navbar-container {
+    display: inline-flex;
+    
+}
+/*Doggo Image
 .doggo-img {
   width: 15%;
   height: auto;
   display: block;
   object-fit: contain;
-}
-
-
-
-
+}*/
 /*-------------------------------------------------------*/
 /*-------------------------------------------------------*/
 /* Footer Stuff */
