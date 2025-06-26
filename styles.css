@@ -14,11 +14,6 @@ body {
   margin-right: 20px;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-}
-
 /* Navbar Wrapper */
 .navbar {
   background-color: #202020;
@@ -32,7 +27,6 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: space-between;
-  
 }
 
 /* Navigation Links */
@@ -75,9 +69,7 @@ body {
   text-align: center;
  
 }
-.navbar-container {
-    display: inline-flex;
-}
+
 
 /*-------------------------------------------------------*/
 /*-------------------------------------------------------*/
@@ -90,10 +82,7 @@ body {
   float: left;
 }
 
-.navbar-container {
-    display: inline-flex;
-    
-}
+
 /*Doggo Image*/
 .doggo-img {
   width: 15%;
@@ -101,6 +90,9 @@ body {
   display: block;
   object-fit: contain;
 }
+
+
+
 
 /*-------------------------------------------------------*/
 /*-------------------------------------------------------*/
