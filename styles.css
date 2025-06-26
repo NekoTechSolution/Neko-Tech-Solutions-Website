@@ -96,14 +96,13 @@ body {
     display: inline-flex;
     
 }
-/*Doggo Image*/
+/*Doggo Image
 .doggo-img {
   width: 15%;
   height: auto;
   display: block;
   object-fit: contain;
-}
-
+}*/
 /*-------------------------------------------------------*/
 /*-------------------------------------------------------*/
 /* Footer Stuff */
