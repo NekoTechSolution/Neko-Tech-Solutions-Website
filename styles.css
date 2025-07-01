@@ -43,20 +43,59 @@ body {
 
 /* Link Styling */
 .navbar a {
-    color: #f2f2f2;
     text-decoration: none;
     font-size: 17px;
-
     padding: 8px 12px;
     transition: background-color 0.3s ease;
     border-radius: 4px;
 }
 
 .navbar a:hover {
-    background-color: #ddd;
-    color: black;
     border-radius: 4px;
 }
+
+
+/* Hover colors*/
+#index_button a {
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+#index_button a:hover {
+    background-color: #53c5d4;
+    color: white;
+}
+
+#services_button a {
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+#services_button a:hover {
+    background-color: #538fd4;
+    color: white;
+}
+
+#contact_button a {
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+#contact_button a:hover {
+    background-color: #8353cf;
+    color: white;
+}
+
+#about_button a {
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+#about_button a:hover {
+    background-color: #cf53c8;
+    color: white;
+}
+
 
 /*-------------------------------------------------------*/
 /*-------------------------------------------------------*/
