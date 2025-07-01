@@ -61,7 +61,7 @@ body {
 /*-------------------------------------------------------*/
 /*-------------------------------------------------------*/
 /*Side bar*/
-.sidebar {
+/*.sidebar {
     width: 30%;
     padding: 0px;
     background-color: #f4f4f4;
@@ -72,17 +72,21 @@ body {
     text-align: center;
 
 }
+            <!--sidebar -->
+            <div class="sidebar">
+                <div class="quick-links">Quick links</div>
+            </div>
+        </div> */
 
 
 /*-------------------------------------------------------*/
 /*-------------------------------------------------------*/
 /*Header image*/
 .banner-img {
-    width: 69.5%;
+    width: 100%;
     height: auto;
     display: block;
     object-fit: contain;
-    float: left;
 }
 
 .navbar-container {
