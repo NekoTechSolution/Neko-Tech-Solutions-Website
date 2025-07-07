@@ -9,6 +9,15 @@ body {
     justify-content: center;
     background: #1a1a1a;
     color: #f2f2f2;   
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /*-------------------------------------------------------*/
@@ -206,7 +215,7 @@ body {
     flex-wrap: wrap;
 }
 
-.btn {
+.button-blue-1, .button-white-1, .button-pink-1 {       
     display: inline-block;
     padding: 12px 28px;
     border-radius: 8px;
@@ -217,31 +226,39 @@ body {
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
-.btn-blue {
+.button-blue-1 {
     background: #53c5d4;
     color: #fff;
+    border: 1px solid #53c5d4;
 }
 
-.btn-blue:hover {
-    background: #3ba7b8;
+.button-blue-1:hover {
+    background: rgba(83,197,212,0.1); 
+    border: 1px solid #53c5d4;
 }
 
-.btn-black {
-    background: #181818;
+.button-white-1 {
+    background: #ffffff;
     color: #fff;
+    color: #000000;
+    border: 1px solid #cacaca;
 }
 
-.btn-black:hover {
-    background: #333;
+.button-white-1:hover {
+    background: rgba(197, 197, 197, 0.1);
+    color: #fff;
+    border: 1px solid #ffffff;
 }
 
-.btn-pink {
+.button-pink-1 {
     background: #cf53c8;
     color: #fff;
+    border: 1px solid #a03b9b;
 }
 
-.btn-pink:hover {
-    background: #a03b9b;
+    .button-pink-1:hover {
+    background: rgba(212, 83, 205, 0.1);
+    border: 1px solid #a03b9b;
 }
 
 /*-------------------------------------------------------*/
@@ -257,8 +274,8 @@ body {
 
 /*Footer*/
 .footer {
-    position: absolute;
-    bottom: 0;
+    position: static;
+    margin-top: auto;
     width: 100%;
     height: 2.5rem;
     text-align: center;
