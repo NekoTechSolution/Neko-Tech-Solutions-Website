@@ -7,6 +7,8 @@ body {
     font-style: normal;
     align-items: center;
     justify-content: center;
+    background: #1a1a1a;
+    color: #f2f2f2;   
 }
 
 /*-------------------------------------------------------*/
@@ -17,6 +19,8 @@ body {
     height: auto;
     margin-right: 40px;
     vertical-align: middle;
+    user-select: none; 
+    pointer-events: none;
 }
 
 /* Navbar Wrapper */
@@ -155,6 +159,7 @@ body {
     height: auto;
     display: block;
     object-fit: contain;
+    
 }
 
 .navbar-container {
@@ -173,25 +178,70 @@ body {
 /*-------------------------------------------------------*/
 /*Section 1*/
 .section_1 {
-    padding: 20px 40px 40px;
-    max-width: 50%;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 5vw;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .section_1_img {
-    display: inline-block;
-    vertical-align: top;
-    width: 46%;
-    margin: 20px 30px 0 0;
+    width: 350px;
+    max-width: 100%;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
 }
 
 .section_1_text {
-    display: inline-block;
-    width: 46%;
+    flex: 1 1 320px;
+    min-width: 280px;
+}
 
-    @media (max-width: 620px) {
-        width: 100%;
-    }
+.section_1_buttons {
+    margin-top: 32px;
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.btn-blue {
+    background: #53c5d4;
+    color: #fff;
+}
+
+.btn-blue:hover {
+    background: #3ba7b8;
+}
+
+.btn-black {
+    background: #181818;
+    color: #fff;
+}
+
+.btn-black:hover {
+    background: #333;
+}
+
+.btn-pink {
+    background: #cf53c8;
+    color: #fff;
+}
+
+.btn-pink:hover {
+    background: #a03b9b;
 }
 
 /*-------------------------------------------------------*/
@@ -235,8 +285,8 @@ body {
 /* Footer Links Hyperlink Hovering */
 .footer-links a:hover {
     color: #ffffff;
-    border-radius: 4px;
 }
 
 /*Media Queries*/
+
 
